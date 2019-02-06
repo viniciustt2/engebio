@@ -1,0 +1,331 @@
+<html lang="port-br">
+<head>
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+		<section class="container-fluid">
+		<a href="os.html" class="btn-back btn-outline-primary">Voltar</a>
+	<section class="row d-flex justify-content-center">
+		<section class="col-6"><br><br>
+		<tr>
+		<td class="head" colspan="5">Procurar OS</td>
+	</tr><br>
+	<tr>
+		<td class="even" width="24%">Buscar as Ordens de Serviço:</td>
+		<td class-even" colspan="4"> </td>
+	</tr><br><br>
+	<tr>
+		<td class="even" width="24%">Buscar as Ordens de Serviço:</td>
+		<td class="even" colspan="4">
+		<input name="situação" type="radio" value="0">
+		Apenas em Aberto 
+		<input name="situação" type="radio" value="1">"Apenas Fechadas"
+		<input name="situação" type="radio" value="todas">"Todas OS"
+	</td>
+	</tr>
+	<tr>
+	</tr><br><br>
+	<tr>
+		<td class"even">No.OS:</td>
+		<td class "even">
+			<input size="15" type="text" name="num_os"></td><br>
+		<td class"even">Número de RS</td>
+		<td colspan="2" class="even"></td>
+		<td colspan="2" class="even">
+			<input type="15" type="text" name="controle_ec">
+		</td>
+	</tr><br>
+	<tr>
+		<td class="odd">Serviço Solcitado:</td>
+		<td class="odd">
+			<select name="tipo_os" id="tipo_os" style=background-color: white; font-family: verdana,Arial,Helvetica,sans-serif; font-size: 11px;">
+				<option value></option>
+				<option value="1">Manutenção Corretiva</option>
+				<option value="2">Manutenção Preventina</option>
+				<option value="3">Instalação</option>
+				<option value="4">Treinamento</option>
+				<option value="5">Calibração</option>
+			</select><
+		</td><br>
+		<td class="odd">Falha Apresentada</td>
+		<td class="odd" colspan="2">
+			<select name="tipo_falha">
+					<option value></option>
+					<option value="1">No Equipamento</option>
+					<option value="2">No Acessório</option>
+			</select>
+		</td>
+	</tr><br>
+	<tr>
+		<td class="even">Funcionário Solicitante:</td>
+		<td class="even">
+			<input name="solicitante" type="text" id="solicitante" size="30">
+		</td><br>
+		<td class="even">Técnico Responsável:</td>
+		<td class="even" colspan="2">
+			<input type="tec_aber" type="text" id="tec_aber" size="30"> 
+		</td><br>
+	</tr>
+	<tr>
+		<td class="odd">Por data&nbsp;&nbsp;-&nbsp;Período:</td>
+		<td class="odd" colspan="4">
+			<select name="d_inicial" id="d_inicial" style="background-color: white;front-family: Verdana,Arial,Helvetica, sans-serif;font-size:11px;">
+				<option value="00"></option>
+				<option value="01">01</option>
+				<option value="02">02</option>
+				<option value="03">03</option>
+				<option value="04">04</option>
+				<option value="05">05</option>
+				<option value="06">06</option>
+				<option value="07">07</option>
+				<option value="08">08</option>
+				<option value="09">09</option>
+				<option value="10">10</option>
+				<option value="11">11</option>
+				<option value="12">12</option>
+				<option value="13">13</option>
+				<option value="14">14</option>
+				<option value="15">15</option>
+				<option value="16">16</option>
+				<option value="17">17</option>
+				<option value="18">18</option>
+				<option value="19">19</option>
+				<option value="20">20</option>
+				<option value="21">21</option>
+				<option value="22">22</option>
+				<option value="23">23</option>
+				<option value="24">24</option>
+				<option value="25">25</option>
+				<option value="26">26</option>
+				<option value="27">27</option>
+				<option value="28">28</option>
+				<option value="29">29</option>
+				<option value="30">30</option>
+				<option value="31">31</option>
+
+			</select>
+			<td>
+			<select name="m_inicial" id="m_inicial" style="background-color: white;font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px;">
+	<option value="00"></option>
+	<option value="01">01</option>
+	<option value="02">02</option>
+	<option value="03">03</option>
+	<option value="04">04</option>
+	<option value="05">05</option>
+	<option value="06">06</option>
+	<option value="07">07</option>
+	<option value="08">08</option>
+	<option value="09">09</option>
+	<option value="10">10</option>
+	<option value="11">11</option>
+	<option value="12">12</option>	
+</select>
+	<td>
+	<select name="m_inicial" id="m_inicial" style="background-color: white;font-family: Verdana,Arial,Helvetica, sans-serif; font-size:11px;">
+	<option></option>
+	<option value="2016">2016</option>
+	<option value="2017">2017</option>
+	<option value="2018">2018</option>
+	<option value="2019">2019</option>
+	<option value="2020">2020</option>
+</select><br>
+	<td class="even">Equipamento:</td>
+	<td class="even" colspan="4">
+		<select name="tipo">
+	<option value="" selected=""></option>
+	<option value=""></option>
+	<option value="Acelerador Linear">Acelerador Linear</option>
+	<option value="Agitador">Agitador</option>
+	<option value="Agitador de plaqueta">Agitador de plaqueta</option>
+	<option value="Agitador de tubos">Agitador de tubos</option>
+	<option value="Aparelho de Densitometria óssea">Aparelho de Densitometria óssea</option>
+	<option value="Aparelho de raio-x">Aparelho de raio-x</option>
+	<option value="Aparelho de raio-x móvel">Aparelho de raio-x móvel</option>
+	<option value="Aparelho de tomografia computadorizada">Aparelho de tomografia computadorizada</option>
+	<option value="Aspirador cirúrgico">Aspirador cirúrgico</option>
+	<option value="Auto refrator">Auto refrator</option>
+	<option value="Auto refrector / Keratometer">Auto refrector / Keratometer</option>
+	<option value="Autoclave">Autoclave</option>
+	<option value="Autoclave vertical">Autoclave vertical</option>
+	<option value="Balança">Balança</option>
+	<option value="Banco de sangue">Banco de sangue</option>
+	<option value="Banho Maria">Banho Maria</option>
+	<option value="Berço aquecido">Berço aquecido</option>
+	<option value="Bicicleta ergométrica">Bicicleta ergométrica</option>
+	<option value="Bisturi a laser">Bisturi a laser</option>
+	<option value="Bisturi eletrônico">Bisturi eletrônico</option>
+	<option value="Bomba de seringa">Bomba de seringa</option>
+	<option value="Bomba injetora de contraste">Bomba injetora de contraste</option>
+	<option value="cadeira de Grenns">cadeira de Grenns</option>
+	<option value="Cama hospitalar">Cama hospitalar</option>
+	<option value="Câmara científica">Câmara científica</option>
+	<option value="Campímetro">Campímetro</option>
+	<option value="Capela de fluxo laminar">Capela de fluxo laminar</option>
+	<option value="Cardioversor ">Cardioversor </option>
+	<option value="Cardioversor&nbsp;">Cardioversor&nbsp;</option>
+	<option value="Carro de anestesia ">Carro de anestesia </option>
+	<option value="Centrífuga">Centrífuga</option>
+	<option value="Coaguladora bipolar">Coaguladora bipolar</option>
+	<option value="Colposcópio">Colposcópio</option>
+	<option value="Coluna oftalmológica">Coluna oftalmológica</option>
+	<option value="Coluna oftalmológica pantográfica">Coluna oftalmológica pantográfica</option>
+	<option value="Contador de células">Contador de células</option>
+	<option value="Desfibrilador">Desfibrilador</option>
+	<option value="Detector fetal">Detector fetal</option>
+	<option value="Digitalizadora de Imagens ">Digitalizadora de Imagens </option>
+	<option value="Eletrocardiógrafo">Eletrocardiógrafo</option>
+	<option value="Esteira ergométrica">Esteira ergométrica</option>
+	<option value="Estimulador neuro muscular">Estimulador neuro muscular</option>
+	<option value="Estufa">Estufa</option>
+	<option value="Facoemulsificador">Facoemulsificador</option>
+	<option value="Foco de procedimento">Foco de procedimento</option>
+	<option value="Foco de teto">Foco de teto</option>
+	<option value="Foco móvel">Foco móvel</option>
+	<option value="Fonte de luz">Fonte de luz</option>
+	<option value="Fonte de Luz (Torre de endoscopia )">Fonte de Luz (Torre de endoscopia )</option>
+	<option value="Fotocoagulador">Fotocoagulador</option>
+	<option value="Fototerapia">Fototerapia</option>
+	<option value="Freezer">Freezer</option>
+	<option value="Gasometria">Gasometria</option>
+	<option value="Geladeira">Geladeira</option>
+	<option value="Greens">Greens</option>
+	<option value="Grenns">Grenns</option>
+	<option value="Homogeneizador ">Homogeneizador </option>
+	<option value="Impressora">Impressora</option>
+	<option value="Incubadora de transporte">Incubadora de transporte</option>
+	<option value="Incubadora infantil">Incubadora infantil</option>
+	<option value="Lâmpada de fenda">Lâmpada de fenda</option>
+	<option value="Lensometro">Lensometro</option>
+	<option value="Lensometro manual">Lensometro manual</option>
+	<option value="Mamógrafo">Mamógrafo</option>
+	<option value="Maquina de fracionamento">Maquina de fracionamento</option>
+	<option value="Mesa Cirúrgica">Mesa Cirúrgica</option>
+	<option value="Microscópio ">Microscópio </option>
+	<option value="Microscópio cirúrgico">Microscópio cirúrgico</option>
+	<option value="Microtomo">Microtomo</option>
+	<option value="Monitor cardíaco ">Monitor cardíaco </option>
+	<option value="Monitor de vídeo">Monitor de vídeo</option>
+	<option value="Monitor multiparamétrico">Monitor multiparamétrico</option>
+	<option value="Negatoscópio">Negatoscópio</option>
+	<option value="Neurograph">Neurograph</option>
+	<option value="Oftalmoscópio">Oftalmoscópio</option>
+	<option value="Oftalmoscópio binocular">Oftalmoscópio binocular</option>
+	<option value="Ondas curtas">Ondas curtas</option>
+	<option value="Oxímetro de pulso">Oxímetro de pulso</option>
+	<option value="Pasteurizadora">Pasteurizadora</option>
+	<option value="Placa fria">Placa fria</option>
+	<option value="Placa quente">Placa quente</option>
+	<option value="Processador de imagem">Processador de imagem</option>
+	<option value="Processadora de imagens">Processadora de imagens</option>
+	<option value="Refrator de Greens">Refrator de Greens</option>
+	<option value="Ressuscitador infantil">Ressuscitador infantil</option>
+	<option value="Reveladora de filmes de mamografia">Reveladora de filmes de mamografia</option>
+	<option value="Seladora de vasos">Seladora de vasos</option>
+	<option value="Separation stand">Separation stand</option>
+	<option value="Tela de projeção de optotipos">Tela de projeção de optotipos</option>
+	<option value="Ultrassom">Ultrassom</option>
+	<option value="Ultrassom para Fisioterapia">Ultrassom para Fisioterapia</option>
+	<option value="Unidade de cuidado intensivo">Unidade de cuidado intensivo</option>
+	<option value="Ventilador de transporte">Ventilador de transporte</option>
+	<option value="Ventilador pulmonar">Ventilador pulmonar</option>
+</select>
+	</td><br>
+	<tr>
+		<td class="even">Fabricante:</td>
+	<td class="even" colspan="5">
+		<input type="text" size=20 name="tipoa"></td>
+	</tr><br>
+	<tr>
+		<td>Modelo</td>
+		<td class="even" colspan="6">
+		<input type="text" size="20"  name="modelo"></td>
+	</tr><br>
+	<tr>
+		<td class="odd">Setor</td>
+		<select name="local1">
+		<option></option>
+		<option></option>
+		<option>10° andar ? Sala da engenharia </option>
+		<option>3º andar Sul (Farmacia)</option>
+		<option>Ambularorio - Cir.Plastica</option>
+		<option>Ambulatório - Acupuntura </option>
+		<option>Ambulatório - Cirurgia plástica</option>
+		<option>Ambulatório Colposcopia</option>
+		<option>Ambulatório de cardiologia </option>
+		<option>Ambulatório de clínica médica</option>
+		<option>Ambulatório de Ginecologia </option>
+		<option>Ambulatório de oftalmologia </option>
+		<option>Ambulatório Gastroenterologia</option>
+		<option>Ambulatório Puericultura</option>
+		<option>Anatomia patológica</option>
+		<option>Banco de leite</option>
+		<option>BTCA</option>
+		<option>Central de equipamentos</option>
+		<option>Centro cirúrgico</option>
+		<option>Centro Obstetrico</option>
+		<option>Centro obstétrico - 4º andar </option>
+		<option>Diagimagem </option>
+		<option>Enfermaria - 10° andar Norte</option>
+		<option>Enfermaria - 10º andar Sul </option>
+		<option>Enfermaria - 11º andar Sul </option>
+		<option>Enfermaria - 7º andar Sul</option>
+		<option>Enfermaria - 8º andar Norte</option>
+		<option>Enfermaria - 8º andar Sul</option>
+		<option>Enfermaria - 9° andar Norte</option>
+		<option>Enfermaria - 9° andar Sul</option>
+		<option>Enfermaria - 9º andar Norte </option>
+		<option>Enfermaria - 9º andar Sul </option>
+		<option>Fisioterapia</option>
+		<option>Gastroenterologia</option>
+		<option>Hemodinâmica</option>
+		<option>Hemoterapia</option>
+		<option>Laboratório (Bacteriologia)</option>
+		<option>Laboratório (Bioquímica)</option>
+		<option>Laboratório (Esterelização)</option>
+		<option>Laboratório (Hematologia)</option>
+		<option>Laboratório (Hemostasia)</option>
+		<option>Laboratório (Parasitologia ? Urinálise)</option>
+		<option>Laboratório (Sorologia)</option>
+		<option>Lika Endoscopia</option>
+		<option>Nefrologia</option>
+		<option>Nutrição</option>
+		<option>Oftalmologia</option>
+		<option>Pediatria</option>
+		<option>Pneumologia</option>
+		<option>Sala de ECG - 7º andar</option>
+		<option>Sala de estabilização</option>
+		<option>Sala de Triagem </option>
+		<option>Unidade neonatal </option>
+		<option>UTI / URCC </option>	
+	</select><br>
+	<tr>
+		<td>Tombamento</td>
+		<input size="20" type="text" name="tomb">
+	</td><br>
+	<td class="even">Nº de Série:&nbsp;&nbsp;</td>
+	<td colspan="2" class="even">
+		<input size="15" type="text" name="serie">
+	</td>
+	</tr><br>
+	<tr>
+		<td class="even">Código:</td>
+		<td class="even" colspan="4">
+		<input size="15" type="text" name="codigo">
+	</td>
+	</tr><br>
+	<tr>
+		<td class="even">Somente Os com Orçamento</td>
+		<td class="even" colspan="4"></td>
+	</tr>
+	<tr>
+		<td colspan="2" class="even" align="center">
+		<input name="ok" type="button" class="btn btn-primary my-4" value="ok" onclick="Enviar(1);">
+		<input type="button" name="relatorio" class="btn btn-primary my-4" value="Gerar Relatório" onclick="Enviar(0);">
+		</td>
+		</tr>
+	</table>
+</form>
+<br>
+
+</body>
